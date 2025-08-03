@@ -1,0 +1,14 @@
+-- Create a database
+    CREATE DATABASE <database_name>;
+
+-- Drop a database
+    DROP DATABASE <database_name>;
+
+-- Create a user
+    CREATE USER <username> WITH PASSWORD '<password>';
+
+-- Change user password
+    ALTER USER <username> WITH PASSWORD '<new_password>';
+
+-- List users and roles
+    \du
