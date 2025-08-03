@@ -1,0 +1,7 @@
+-- Using CMD prompt or Powershell run this scripts to start and stop you PostgreSQL engine
+
+-- To stop, replace it with the version you've got installed for your PostgreSQL engine
+net stop postgresql-x64-17
+
+--- To start, replace it with the version you've got installed for your PostgreSQL engine
+net start postgresql-x64-17
