@@ -3,6 +3,8 @@
 
 -- Show active connections
     SELECT * FROM pg_stat_activity;
+-- Similar to the above one, but more refined
+SELECT pid, usename, application_name, client_addr, backend_start, state, query, wait_event_type, wait_event FROM pg_stat_activity;
 -- Shows datbase statistics like blocks etc
     SELECT * FROM pg_stat_database;
 
