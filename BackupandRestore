@@ -1,0 +1,5 @@
+-- Backup a database
+    pg_dump -U <username> -h <hostname> <database_name> > backup.sql
+
+-- Restore a database
+    psql -U <username> -h <hostname> -d <database_name> < backup.sql
